@@ -16,13 +16,13 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
+  - {file: "index.html", title: "Home"}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:michael_roussin@hotmail.com"}
   - {title: Github, icon: github, url: "https://github.com/mroussin"}
-  - {title: Subscribe, icon: facebook, url: "/feed.xml"}
+  - {title: Subscribe, icon: twitter, url: ""}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
